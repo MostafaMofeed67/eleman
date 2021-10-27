@@ -1,0 +1,49 @@
+%help {
+  width: 100%;
+  font-size: $default-font-size;
+  background: $bg-color-light;
+  padding-right: 1rem;
+  border: 1px solid $color-grey-dark-2;
+  transition: transform 0.3s ease-in-out;
+  &:focus,
+  &:active {
+    outline: none;
+    transform: scale(1.01);
+  }
+}
+
+.form {
+  &__text {
+    font-size: $default-font-size;
+    margin-bottom: 5px;
+    color: rgba($color-grey-light-2, 0.5);
+  }
+
+  input {
+    height: 3.5rem;
+    @extend %help;
+  }
+
+  textarea {
+    @extend %help;
+  }
+
+  &__button {
+    margin-top: 1rem;
+
+    &--btn {
+      height: 4rem;
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: $color-grad-2;
+      font-size: $default-font-size;
+      color: $color-white;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: $color-black;
+      }
+    }
+  }
+}

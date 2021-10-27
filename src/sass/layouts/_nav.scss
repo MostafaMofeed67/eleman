@@ -1,0 +1,31 @@
+.navbar {
+  position: relative;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent !important;
+  min-height: 10rem;
+
+  &-brand {
+    font-size: 5rem;
+    font-family: "thuluth-decorated";
+    color: $color-white !important;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-white !important;
+    }
+  }
+
+  &-nav {
+    .nav-link {
+      font-size: $default-font-size;
+      color: $color-white !important;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.navbar.active {
+  background-color: $bg-color-dark !important;
+  min-height: 11rem !important;
+}

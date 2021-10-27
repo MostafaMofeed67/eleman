@@ -1,0 +1,44 @@
+.lectures {
+  position: relative;
+
+  &__lec {
+    padding: 2rem;
+    box-shadow: 0 0 4px $bg-color-dark, 0 0 4px $bg-color-dark;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
+    &:not(:last-of-type) {
+      margin-bottom: 3rem !important;
+    }
+
+    &:hover {
+      transform: scale(0.95);
+    }
+    &--text {
+      &-paragraph {
+        font-size: $default-font-size;
+      }
+    }
+
+    &--image {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 50%;
+    }
+  }
+
+  &__sticky {
+    position: sticky !important;
+    top: 0 !important;
+  }
+
+  &__frame {
+    height: 35rem !important;
+  }
+
+  &__frame--text {
+    font-size: $default-font-size;
+    margin-top: 3rem;
+    font-weight: bold;
+  }
+}

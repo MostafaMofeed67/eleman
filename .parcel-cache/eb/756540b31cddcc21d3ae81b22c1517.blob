@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإيمان</title>
+    <!-- THULUTH FONT -->
+    <link rel="stylesheet" type="text/css" href="d4ed410309f6a3df37646d2eae3f84b3">
+    <!-- CAIRO FONT -->
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+    <link href="c77a9471ca53323d8d754e330c0b6d6f" rel="stylesheet">
+    <link rel="stylesheet" href="78563d05966acd814a71d78f572f3a31">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="98742a8a32141260e65ab79b35efb56e">
+
+    <!-- APP JS -->
+    <script defer="" src="0a4763324109d534ff903332af9b4282"></script>
+  </head>
+
+  <body>
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark position-fixed w-100">
+      <div class="container">
+        <a class="navbar-brand" href="#">الإيمان</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-4">
+              <a class="nav-link active" href="#header">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#hadith">أحاديث</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#lectures">محاضرات</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#quran">الْقُرْآن الْكَرِيْم</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#pray">أوقات الصلاة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start main -->
+    <main>
+      <!-- start header -->
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__title mb-3">
+            <h1 class="header__heading">
+              مرحبا بك في <br>
+              موقع الإيمان الإسلامي
+            </h1>
+
+            <button class="btn btn--orange mt-5 btn-start">إبدأ التصفح</button>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- start ahdith -->
+      <section class="hadith" id="hadith">
+        <h2 class="heading-primary">أحاديث</h2>
+        <div class="container">
+          <div class="
+              hadith__text
+              d-flex
+              justify-content-center
+              align-items-center
+              text-center
+            "></div>
+
+          <div class="hadith__buttons mt-5 mt-5">
+            <div class="container-fluid">
+              <div class="hadith__container">
+                <button class="btn btn--orange btn--prev">السابق</button>
+                <p class="hadith__page"></p>
+                <button class="btn btn--orange btn--next">التالي</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end ahadith -->
+
+      <!-- start lectures -->
+      <section class="lectures" id="lectures">
+        <h2 class="heading-primary">محاضرات</h2>
+        <div class="container">
+          <div class="row gy-5 justify-content-center">
+            <div class="col-md-6">
+              <div class="
+                  lectures__lec
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <div class="lectures__lec--text">
+                  <h3 class="heading-secondary mb-3">لماذا نزل القران عربيا</h3>
+                  <p class="lectures__lec--text-paragraph">
+                    محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي
+                  </p>
+                </div>
+                <img class="lectures__lec--image" src="c0a09b5539979bc9c16536f5c68f6138" alt="">
+              </div>
+              <div class="
+                  lectures__lec
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <div class="lectures__lec--text">
+                  <h3 class="heading-secondary mb-3">تاريخ القرآن الكريم</h3>
+                  <p class="lectures__lec--text-paragraph">
+                    محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي
+                  </p>
+                </div>
+                <img class="lectures__lec--image" src="99af5d61534370c2fa008b462205fe4e" alt="">
+              </div>
+              <div class="
+                  lectures__lec
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <div class="lectures__lec--text">
+                  <h3 class="heading-secondary mb-3">
+                    مراحل نزول القرآن الكريم
+                  </h3>
+                  <p class="lectures__lec--text-paragraph">
+                    محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي
+                  </p>
+                </div>
+                <img class="lectures__lec--image" src="b2e9787eb5596b9b845818da04580b25" alt="">
+              </div>
+              <div class="
+                  lectures__lec
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <div class="lectures__lec--text">
+                  <h3 class="heading-secondary mb-3">علوم القرآن الكريم</h3>
+                  <p class="lectures__lec--text-paragraph">
+                    محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي
+                  </p>
+                </div>
+                <img class="lectures__lec--image" src="e94c40a8e7ec25ce53104836b2b2381d" alt="">
+              </div>
+              <div class="
+                  lectures__lec
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <div class="lectures__lec--text">
+                  <h3 class="heading-secondary mb-3">جمع القرآن الكريم</h3>
+                  <p class="lectures__lec--text-paragraph">
+                    محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي
+                  </p>
+                </div>
+                <img class="lectures__lec--image" src="d114d2d41b2330131db480fd3474fec5" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="lectures__sticky">
+                <iframe src="d402479f4cb6f7506ec130569f49d17e" frameborder="0" class="w-100 lectures__frame"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end lectures -->
+
+      <!-- start quran -->
+      <section class="quran" id="quran">
+        <h2 class="heading-primary">الْقُرْآن الْكَرِيْم</h2>
+        <div class="container">
+          <div class="row gy-4 justify-content-center"></div>
+        </div>
+      </section>
+      <!-- end quran -->
+
+      <!-- start pray -->
+      <section class="pray" id="pray">
+        <h2 class="heading-primary">أوقات الصلاة</h2>
+        <div class="container">
+          <div class="row gy-5 justify-content-center"></div>
+        </div>
+      </section>
+      <!-- end pray -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path fill="#333" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-4">
+            <h3 class="heading-secondary mb-4">من نحن</h3>
+            <div class="footer__content">
+              <p class="text-primary text-primary--white">
+                موقع الإيمان هو موقع اسلامي يهدف الى ذكر الله من خلال قراءه
+                القرآن و أيضا قراءه بعض الاحاديث . نتمنى م الله ان يكون هذا
+                العمل فيه منفعه للناس و لنا و لكم جزيل الشكر و الاحترام.
+              </p>
+              <div class="footer__social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3 class="heading-secondary mb-4">العنوان</h3>
+            <div class="footer__content">
+              <div class="footer__address">
+                <div class="footer__place">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <span class="text-primary text-primary--white">
+                    ميت مزاح , مركز المنصوره , الدقهلية
+                  </span>
+                </div>
+                <div class="footer__phone">
+                  <i class="fas fa-phone"></i>
+                  <span class="text-primary text-primary--white">01501344134
+                  </span>
+                </div>
+                <div class="footer__email">
+                  <i class="fas fa-envelope"></i>
+                  <span class="text-primary text-primary--white">
+                    mofeedmostafa83@gmail.com
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3 class="heading-secondary mb-4">تواصل معنا</h3>
+            <div class="footer__content">
+              <form action="#" class="form">
+                <div class="email mb-3">
+                  <p class="form__text">البريد *</p>
+                  <input type="email" required="">
+                </div>
+
+                <div class="msg mb-3">
+                  <p class="form__text">رسالة *</p>
+                  <textarea cols="25" rows="2"></textarea>
+                </div>
+
+                <div class="form__button">
+                  <button class="form__button--btn" type="submit">إرسال</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="text-center footer__copyright">
+      Created by
+      <a href="e006b4ad8903d78ba38ce8fc5865ad9e" target="_blank">Mostafa Mofeed</a>
+      | <i class="far fa-copyright"></i> 2021 all rights reserved.
+    </p>
+    <!-- end footer -->
+
+    <!-- start popup -->
+    <section class="popup hide">
+      <div class="popup__close d-flex align-items-center justify-content-center">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="container">
+        <div class="popup__ayat"></div>
+      </div>
+    </section>
+    <!-- end popup -->
+
+    <!-- start scroll button -->
+
+    <button class="scroll--btn">
+      <i class="fas fa-angle-double-up"></i>
+    </button>
+
+    <!-- end scroll button -->
+
+    <!-- start spinner -->
+    <div class="spinner">
+      <div class="
+          lds-spinner
+          w-100
+          h-100
+          d-flex
+          justify-content-center
+          align-items-center
+        ">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- end spinner -->
+  </body>
+</html>

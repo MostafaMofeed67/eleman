@@ -1,0 +1,27 @@
+.hadith {
+  &__text {
+    min-height: 35rem;
+    padding: 2rem;
+    font-size: $default-font-size;
+    line-height: 2.5;
+    font-weight: 600;
+    box-shadow: 0 0 4px $bg-color-dark inset;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__page {
+    font-size: $default-font-size;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 4px $bg-color-dark;
+    justify-self: center;
+    margin: 0;
+    font-weight: 700;
+    color: $color-primary;
+    align-self: flex-end;
+  }
+}

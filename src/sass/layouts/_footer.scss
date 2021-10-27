@@ -1,0 +1,96 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  color: $color-grey-light-1 !important;
+  padding: 0 1.5rem 2rem 1.5rem;
+
+  &__social {
+    margin-top: 2rem;
+    a {
+      padding: 0 2px;
+    }
+
+    i {
+      height: 4rem;
+      width: 4rem;
+      color: $color-grey-light-1;
+      font-size: 1.8rem;
+      background: $bg-color-light;
+      text-align: center;
+      line-height: 4rem;
+      border-radius: 5px;
+      transition: 0.3s;
+
+      &:hover {
+        background: $color-grad-2;
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 2rem;
+    position: relative;
+    padding-top: 1.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      top: -1rem;
+      background-color: $bg-color-light;
+      margin-bottom: 1rem;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 15%;
+      top: -1rem;
+      background-color: $color-grad-2;
+    }
+  }
+
+  &__address {
+    i {
+      font-size: $default-font-size;
+      background: $bg-color-light;
+      height: 4.5rem;
+      width: 4.5rem;
+      border-radius: 50%;
+      line-height: 4.5rem;
+      text-align: center;
+      transition: 0.3s;
+      cursor: pointer;
+      margin-left: 1rem;
+
+      &:hover {
+        background: $color-grad-2;
+      }
+    }
+  }
+
+  &__phone {
+    margin: 1rem 0;
+  }
+}
+
+.footer__copyright {
+  background: $color-grey-dark-4 !important;
+  width: 100%;
+  direction: ltr;
+  font-size: $default-font-size;
+  background: $bg-color-light;
+  margin-bottom: 0;
+  padding: 1rem 0;
+  color: $color-white;
+
+  a {
+    text-decoration: none;
+    color: $color-grad-2;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}

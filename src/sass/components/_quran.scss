@@ -1,0 +1,33 @@
+.quran {
+  &__text {
+    box-shadow: 0 0 4px $bg-color-dark, 0 0 4px $bg-color-dark;
+    width: 20rem;
+    min-height: 10rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 3px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .col {
+    @include respond(tab-land) {
+      width: auto !important;
+      flex: 0 0 0;
+    }
+  }
+}
